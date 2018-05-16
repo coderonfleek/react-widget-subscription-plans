@@ -1,0 +1,45 @@
+.plan {
+  width: 100px;
+  height: 120px;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 20px;
+  background-color: #7dd0ed;
+  color: white;
+}
+
+.plan .price {
+  text-align: center;
+  font-family: Arial;
+  padding-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.plan .price span {
+  text-align: center;
+  font-family: Arial;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.plan:hover {
+  transform: scale(1.2);
+}
+
+.plan:hover .title {
+  background-color: #27a6d2;
+}
+
+.plan:hover .price {
+  color: #7dd0ed;
+}
+
+.animate {
+  transition: transform 1s ease;
+}

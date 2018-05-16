@@ -1,0 +1,14 @@
+.frame {
+  width: 400px;
+  height: auto;
+  padding: 5px;
+  background-color: #e9edef;
+  padding-top: 40px;
+}
+
+#plans {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

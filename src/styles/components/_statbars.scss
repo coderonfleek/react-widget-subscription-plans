@@ -1,0 +1,29 @@
+.datas {
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 10px;
+  border-radius: 3px;
+  background-color: #e9edef;
+}
+
+.fill {
+  height: 10px;
+  background-color: #7dd0ed;
+  width: 0px;
+}
+
+.animateFill {
+  transition: width 1s ease;
+}
